@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:enabled="true"
+        android:icon="@drawable/discovericon"
+        android:title="Keşfet"
+        android:visible="true" />
+    <item
+        android:icon="@drawable/iconlist"
+        android:title="Listem" />
+    <item
+        android:icon="@drawable/iconsearch"
+        android:title="Arama" />
+    <item
+        android:icon="@drawable/icontv"
+        android:title="Canlı TV" />
+    <item
+        android:icon="@drawable/iconuser"
+        android:title="Hesabım" />
+</menu>

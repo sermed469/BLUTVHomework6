@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appThemeColor">#FF081329</color>
+    <color name="appBackgroundColor">#FF202C44</color>
+    <color name="bottomNavColor">#FF202C44</color>
+</resources>
