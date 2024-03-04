@@ -158,8 +158,8 @@ class MoviesFragment : Fragment() {
     }
 
     fun getAllMovies(movieTypes:ArrayList<MovieType>):ArrayList<Movie>{
-        val mv1 = Movie(13,movieTypes.get(0),"fantasticbeasts",true)
-        val mv2 = Movie(14,movieTypes.get(0),"crimesofgrindelwald",true)
+        val mv1 = Movie(13,movieTypes.get(0),"fantasticbeasts",false)
+        val mv2 = Movie(14,movieTypes.get(0),"crimesofgrindelwald",false)
         val mv3 = Movie(15,movieTypes.get(0),"shazam6",true)
         val mv4 = Movie(16,movieTypes.get(0),"pikachu",true)
 
@@ -173,8 +173,8 @@ class MoviesFragment : Fragment() {
         val mv11 = Movie(23,movieTypes.get(2),"thewalk",false)
         val mv12 = Movie(24,movieTypes.get(2),"thesocialnetwork",false)
 
-        val mv13 = Movie(25,movieTypes.get(3),"karveayi",true)
-        val mv14 = Movie(26,movieTypes.get(3),"worstpersonoftheworld",true)
+        val mv13 = Movie(25,movieTypes.get(3),"karveayi",false)
+        val mv14 = Movie(26,movieTypes.get(3),"worstpersonoftheworld",false)
         val mv15 = Movie(27,movieTypes.get(3),"father",false)
         val mv16 = Movie(28,movieTypes.get(3),"parasite",false)
 
@@ -198,8 +198,8 @@ class MoviesFragment : Fragment() {
         val mv31 = Movie(43,movieTypes.get(7),"pig",false)
         val mv32= Movie(44,movieTypes.get(7),"undine",false)
 
-        val mv33 = Movie(45,movieTypes.get(8),"shazam6",false)
-        val mv34 = Movie(46,movieTypes.get(8),"pikachu",false)
+        val mv33 = Movie(45,movieTypes.get(8),"shazam6",true)
+        val mv34 = Movie(46,movieTypes.get(8),"pikachu",true)
         val mv35 = Movie(47,movieTypes.get(8),"worstpersonoftheworld",false)
         val mv36= Movie(48,movieTypes.get(8),"everythingeverywhere",false)
 

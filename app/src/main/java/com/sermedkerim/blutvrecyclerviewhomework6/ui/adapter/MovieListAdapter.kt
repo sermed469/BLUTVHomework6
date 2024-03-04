@@ -36,10 +36,7 @@ class MovieListAdapter(var movieType:List<MovieType>,var allMovies:List<Movie>):
         val filteredMovies = allMovies.filter {
             it.movie_type!!.movie_type_name == movieType.movie_type_name
         }
-        Log.e("movie",movieType.movie_type_name)
-        for (m in filteredMovies){
-            Log.e("movie",m.movie_img)
-        }
+
         val movieAdapter = MovieAdapter(filteredMovies)
         holder.binding.recylclerViewMovieListByType.adapter = movieAdapter
     }
